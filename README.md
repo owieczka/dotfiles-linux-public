@@ -74,6 +74,7 @@ Written based on [Git Bare Repository - A Better Way To Manage Dotfiles (youtube
 Create directory for bare repo and hop on
 
 `mkdir dotfiles-linux-public-repo`
+
 `cd dotfiles-linux-public-repo`
 
 Init bare git repository
@@ -98,7 +99,7 @@ Reload config for fish shell
 
 ## Helper alias
 
-For easier manipulation of you repository you can create an alias to appriopriate git command with necessary parameters. You dont need to do it if you pull from me repository where it is already done. 
+For easier manipulation of your repository you can create an alias to appriopriate git command with necessary parameters. You don't need to do it if you pull from my repository where it have been already done. 
 
 In `config.fish` you need to add flowing line
 
@@ -109,13 +110,17 @@ from now on instead using git command please use gitdotfiles command.
 ## Additional configurations
 
 (optional) Add ssh passwordless write to repo
+
 `gitdotfiles remote set-url origin git@github.com:owieczka/dotfiles-linux-public.git`
 
 Disable showing a local untracked files
+
 `gitdotfiles config --local status.showUntrackedFiles no`
 
 Configure how commits with by signed
+
 `gitdotfiles config --local user.name "Owieczka"`
+
 `gitdotfiles config --local user.email "owieczka.owieczka"``
 
 
