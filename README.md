@@ -11,12 +11,18 @@
 
 # Tools
 
-- tmux
-- exa
+- tmux 3.3a
+- eza
 - fish
 - micro editor
 - glow
 - diff3
+- git log style
+
+# ToDo
+
+- Move `.tmux.conf` do `~/config/tmux/`
+- Micro Theme
 
 # GitHub passwordless access
 
