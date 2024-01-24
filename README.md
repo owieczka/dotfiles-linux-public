@@ -24,6 +24,17 @@
 - Move `.tmux.conf` do `~/config/tmux/`
 - Micro Theme
 
+# Tmux Plugin maganer
+
+`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
+prefix + I - install plugin
+
+## Resurest
+
+
+
+
 # GitHub passwordless access
 
 ## Obtain SSH key pair
