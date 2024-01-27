@@ -23,3 +23,7 @@ set -g -x EDITOR micro
 # Dotfile repo adapter
 alias gitdotfiles="/usr/bin/git --git-dir=$HOME/dotfiles-linux-public-repo --work-tree=$HOME"
 alias gitprivate="/usr/bin/git --git-dir=$HOME/dotfiles-linux-private-repo --work-tree=$HOME"
+
+# Tmuxinator helper
+alias tx tmuxinator
+alias tx-start ~/.config/cmd/tmuxinator-fzf-start.sh

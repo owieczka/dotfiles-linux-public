@@ -29,6 +29,12 @@
 - Micro Theme
 - fzf-start.sh - to into a tmux popup window and command
 
+# Tmuxinator
+
+`tx-start` - alias for great tool `tmuxinator-fzf-start.sh` which allows to start tmux session from project
+
+`tx` - because `tmuxinator` is too long for me I use `tx` alias
+
 # Tmux Plugin maganer
 
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
