@@ -17,7 +17,7 @@
 - eza
 - fish
 - micro editor
-- glow
+- glow vs frogmouth (pip)
 - diff3
 - git log style
 - fzf
