@@ -12,17 +12,22 @@
 # Tools
 
 - tmux 3.3a
+	- ressurect
+	- continuum
 - eza
 - fish
 - micro editor
 - glow
 - diff3
 - git log style
+- fzf
 
 # ToDo
 
+- tmuxinator if directory exists
 - Move `.tmux.conf` do `~/config/tmux/`
 - Micro Theme
+- fzf-start.sh - to into a tmux popup window and command
 
 # Tmux Plugin maganer
 
@@ -32,7 +37,8 @@ prefix + I - install plugin
 
 ## Resurest
 
-
+prefix + Ctrl-S - zapis sesji
+prefix + Ctrl-R - restore sesion form file
 
 
 # GitHub passwordless access
