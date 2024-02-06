@@ -1,6 +1,8 @@
 {
     "colorscheme": "atom-dark",
+    "indentchar": "→",
     "softwrap": true,
     "tabsize": 2,
+    "tabtospaces": true,
     "wordwrap": true
 }
