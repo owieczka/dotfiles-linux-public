@@ -28,6 +28,9 @@
 - Move `.tmux.conf` do `~/config/tmux/`
 - Micro Theme
 - fzf-start.sh - to into a tmux popup window and command
+- Man in tmux
+- diff3
+- git log
 
 # Tmuxinator
 
