@@ -32,6 +32,16 @@
 - diff3
 - git log
 
+# Micro editor
+
+Micro editor is my favorite text editor for terminal. 
+
+In my configuration I have use:
+
+- 2 spaces indentation
+- spaces instead of tabs
+- word warp
+
 # Tmuxinator
 
 `tx-start` - alias for great tool `tmuxinator-fzf-start.sh` which allows to start tmux session from project
