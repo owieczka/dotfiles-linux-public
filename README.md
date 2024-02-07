@@ -17,6 +17,8 @@
 - eza
 - fish
 - micro editor
+	- filemanager
+	- fzfinder
 - glow vs frogmouth (pip)
 - diff3
 - git log style
@@ -41,6 +43,15 @@ In my configuration I have use:
 - 2 spaces indentation
 - spaces instead of tabs
 - word warp
+
+Custom bindings
+
+- `Alt-o` - open file via fzfinder
+
+## Plugins
+
+- filemanager
+- fzfinder
 
 # Tmuxinator
 

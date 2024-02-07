@@ -1,6 +1,12 @@
 {
     "colorscheme": "atom-dark",
+    "fzfarg": "--preview 'bat -f -p {}'",
+    "fzfopen": "newtab",
+    "fzfpath": "relative",
     "indentchar": "→",
+    "pluginrepos": [
+        "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json"
+    ],
     "softwrap": true,
     "tabsize": 2,
     "tabtospaces": true,

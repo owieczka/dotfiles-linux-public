@@ -26,4 +26,4 @@ alias gitprivate="/usr/bin/git --git-dir=$HOME/dotfiles-linux-private-repo --wor
 
 # Tmuxinator helper
 alias tx tmuxinator
-alias tx-start ~/.config/cmd/tmuxinator-fzf-start.sh
+alias tx-start ~/.config/cmd/tmuxinator-fzf-start.sh # Easy tmux session start form stored projects
