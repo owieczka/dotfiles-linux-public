@@ -15,6 +15,7 @@
 	- ressurect
 	- continuum
 - eza
+- bat
 - fish
 - micro editor
 	- filemanager
@@ -27,12 +28,17 @@
 # ToDo
 
 - tmuxinator if directory exists
-- Move `.tmux.conf` do `~/config/tmux/`
+- Move `.tmux.conf` do `~/.config/tmux/`
 - Micro Theme
 - fzf-start.sh - to into a tmux popup window and command
 - Man in tmux
 - diff3
 - git log
+- fd
+
+# Bat
+
+Bat is cat alternative. Is is used in Micro fzfinder plugin to easly preview a file before opening.
 
 # Micro editor
 
