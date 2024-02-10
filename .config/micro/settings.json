@@ -9,6 +9,6 @@
     ],
     "softwrap": true,
     "tabsize": 2,
-    "tabtospaces": true,
+    "tabstospaces": true,
     "wordwrap": true
 }
