@@ -25,6 +25,7 @@
 - git log style
 - fzf
 - zoxide
+- lazydocker
 
 # ToDo
 
@@ -40,6 +41,10 @@
 # Zoxide
 
 Zoxide is cd alternative
+
+# Lazydocker
+
+Lazydocker is a tool for managing docker images in terminal 
 
 # Bat
 
