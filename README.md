@@ -24,6 +24,7 @@
 - diff3
 - git log style
 - fzf
+- zoxide
 
 # ToDo
 
@@ -35,6 +36,10 @@
 - diff3
 - git log
 - fd
+
+# Zoxide
+
+Zoxide is cd alternative
 
 # Bat
 
