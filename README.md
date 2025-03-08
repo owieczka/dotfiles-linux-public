@@ -6,7 +6,7 @@
  |_____\__,_|_| |_| |_|_.__/_| |__  ___ 
                   | |   / _` | '_ \/ __|
                   | |__| (_| | |_) \__ \
-  2024-01-12      |_____\__,_|_.__/|___/
+  2025-03-08      |_____\__,_|_.__/|___/
 ```
 
 # Tools
@@ -155,7 +155,12 @@ Form a `dotfiles-linux-public-repo` execute pull command
 
 `git --git-dir . --work-tree=$HOME pull origin master`
 
-You may encounter a problem with already existing files in you Home directory. You must remove them before pulling
+You may encounter a problem with already existing files in you Home directory. You must remove them before pulling or
+
+`git --git-dir . --work-tree=$HOME fetch origin master`
+`git --git-dir . --work-tree=$HOME checkout master -f`
+
+
 
 Reload config for fish shell
 
