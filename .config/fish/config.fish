@@ -6,7 +6,7 @@
 # |_____\__,_|_| |_| |_|_.__/_| |__  ___  #
 #                  | |   / _` | '_ \/ __| #
 #                  | |__| (_| | |_) \__ \ #
-#  2024-01-12      |_____\__,_|_.__/|___/ #
+#  2025-03-15      |_____\__,_|_.__/|___/ #
 ###########################################
 
 if status is-interactive
@@ -21,9 +21,11 @@ end
 set -g -x EDITOR micro
 
 # Dotfile repo adapter
-alias gitdotfiles="/usr/bin/git --git-dir=$HOME/dotfiles-linux-public-repo --work-tree=$HOME"
-alias gitprivate="/usr/bin/git --git-dir=$HOME/dotfiles-linux-private-repo --work-tree=$HOME"
+alias gitdotfiles=(which git)" --git-dir=$HOME/dotfiles-linux-public-repo --work-tree=$HOME"
+alias gitprivate=(which git)" --git-dir=$HOME/dotfiles-linux-private-repo --work-tree=$HOME"
 
 # Tmuxinator helper
 alias tx tmuxinator
 alias tx-start ~/.config/cmd/tmuxinator-fzf-start.sh # Easy tmux session start form stored projects
+
+
