@@ -107,7 +107,7 @@ initANSI
 
 cat << EOF
 ${p2}${r}     Welcome ${USER}
-             IP: $(hostname -I)
+             IP: $(hostname -i)
    ${mrd}${mdc}${mdc}${mdc}${mrd}${r} ${dce}®${r}   Shell: ${SHELL}
   ${mb0}${mbb}${m00}${mcc}${m00}${mdd}${r}
 ${mr3}${m34}${m04}${mb4}${m00}${mcc}${m00}${mdd}${r}
