@@ -4,6 +4,12 @@
     "fzfopen": "newtab",
     "fzfpath": "relative",
     "indentchar": "→",
+    "lsp.autocompleteDetails": false,
+    "lsp.formatOnSave": false,
+    "lsp.ignoreMessages": "LS message1 to ignore|LS message 2 to ignore|...",
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "python=pylsp,go=gopls,typescript=deno lsp,javascript=deno  lsjson=deno lsp,markdon=deno lsp,lua=lua-lsp,c++=clangd,rust=rust-analyzer",
+    "lsp.tabcompletion": true,
     "pluginrepos": [
         "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json"
     ],

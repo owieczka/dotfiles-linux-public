@@ -12,14 +12,14 @@
 # Tools
 
 - tmux 3.3a
-	- ressurect
-	- continuum
+  - ressurect
+  - continuum
 - eza
 - bat
 - fish
 - micro editor
-	- filemanager
-	- fzfinder
+  - filemanager
+  - fzfinder
 - glow vs frogmouth (pip)
 - diff3
 - git log style
@@ -80,6 +80,24 @@ Custom bindings
 
 - filemanager
 - fzfinder
+- lsp (https://github.com/AndCake/micro-plugin-lsp)
+
+### LSP
+
+Language server protocoll support for Micro editor
+
+`micro -plugin install lsp fzfinder filemanager`
+
+`Alt-k` - Show function signature on status bar
+`Alt-r` - Show references to the current symbol in buffer
+`Alt-d` - open function definition in a new tab
+`Alt-f` - Format document
+`Ctrl-space` - auto completion
+
+requires:
+- python: python-lsp-server, pylsp-mypy
+- javascript: deno `curl -fsSL https://deno.land/install.sh | sh`
+- lua: 
 
 # Tmuxinator
 
