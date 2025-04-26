@@ -26,6 +26,8 @@
 - fzf
 - zoxide
 - lazydocker
+- ripgrep
+- entr
 
 # ToDo
 
@@ -49,6 +51,16 @@ Lazydocker is a tool for managing docker images in terminal
 # Bat
 
 Bat is cat alternative. Is is used in Micro fzfinder plugin to easly preview a file before opening.
+
+# RipGrep
+
+RipGrep `rg` is a versatile file search engine
+
+# Entr
+
+Entr is a tools that looks after a list of provided files and execudes given command every time file changes
+
+`ls *.js | entr -c node app.js`
 
 # Micro editor
 
@@ -85,7 +97,6 @@ prefix + I - install plugin
 
 prefix + Ctrl-S - zapis sesji
 prefix + Ctrl-R - restore sesion form file
-
 
 # GitHub passwordless access
 
