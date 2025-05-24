@@ -28,4 +28,6 @@ alias gitprivate=(which git)" --git-dir=$HOME/dotfiles-linux-private-repo --work
 alias tx tmuxinator
 alias tx-start ~/.config/cmd/tmuxinator-fzf-start.sh # Easy tmux session start form stored projects
 
+# Tmux popup
+alias tmux-popup ~/.config/cmd/tmux-popup.sh # Show tmux sesion in popup
 
