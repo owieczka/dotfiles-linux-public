@@ -20,25 +20,25 @@ echo ""
 echo "Starting dotfiles installation..."
 
 # Create gitdotfiles folder in home directory
-mkdir -p "$HOME/gitdotfiles"
+mkdir -p "$HOME/dotfiles-linux-public-repo"
 
 # Initialize bare repo
-git init --bare "$HOME/gitdotfiles"
+git init --bare "$HOME/dotfiles-linux-public-repo"
 
 # Add remote
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" remote add origin https://github.com/owieczka/dotfiles-linux-public
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" remote add origin https://github.com/owieczka/dotfiles-linux-public
 
 # Fetch data from master branch
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" fetch origin master
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" fetch origin master
 
 # Checkout master branch
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" checkout -f master
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" checkout -f master
 
 # Set branch tracking
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" branch --set-upstream-to=origin/master master
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" branch --set-upstream-to=origin/master master
 
 # Hide untracked files in status
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" config --local status.showUntrackedFiles no
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" config --local status.showUntrackedFiles no
 
 #============================================================
 
@@ -47,14 +47,14 @@ read -p "Enter your Git username: " git_username
 read -p "Enter your Git email: " git_email
 
 # Set user.name and user.email
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" config --local user.name "$git_username"
-git --git-dir="$HOME/gitdotfiles" --work-tree="$HOME" config --local user.email "$git_email"
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" config --local user.name "$git_username"
+git --git-dir="$HOME/dotfiles-linux-public-repo" --work-tree="$HOME" config --local user.email "$git_email"
 
 #============================================================
 
 # Add alias to .bashrc if it doesn't exist
 if ! grep -q "alias gitdotfiles=" "$HOME/.bashrc" 2>/dev/null; then
-    echo "alias gitdotfiles='git --git-dir=\$HOME/gitdotfiles --work-tree=\$HOME'" >> "$HOME/.bashrc"
+    echo "alias gitdotfiles='git --git-dir=\$HOME/dotfiles-linux-public-repo --work-tree=\$HOME'" >> "$HOME/.bashrc"
     echo "Alias 'gitdotfiles' added to ~/.bashrc"
 fi
 
@@ -73,7 +73,7 @@ if [[ ! "$install_software" =~ ^[Yy]$ ]]; then
     echo ""
     echo "Dotfiles have been installed!"
     echo "Use: source ~/.bashrc to load 'gitdotfiles' alias"
-    echo "Or use directly: git --git-dir=\$HOME/gitdotfiles --work-tree=\$HOME <command>"
+    echo "Or use directly: git --git-dir=\$HOME/dotfiles-linux-public-repo --work-tree=\$HOME <command>"
     exit 0
 fi
 
@@ -417,4 +417,4 @@ fi
 
 echo "Dotfiles have been installed!"
 echo "Use: source ~/.bashrc to load alias 'gitdotfiles'"
-echo "Or use directly: git --git-dir=\$HOME/gitdotfiles --work-tree=\$HOME <komenda>"
+echo "Or use directly: git --git-dir=\$HOME/dotfiles-linux-public-repo --work-tree=\$HOME <komenda>"
