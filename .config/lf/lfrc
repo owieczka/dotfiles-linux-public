@@ -1,0 +1,14 @@
+# --- Konfiguracja lf (Poprawiona dla Termux / Picker) ---
+
+# Pokazuj ukryte pliki domyślnie
+set hidden true
+
+# Rysuj ramki wokół kolumn interfejsu
+set drawbox true
+
+# MAPOWANIE ENTERA:
+# Przypisujemy Enter do wbudowanej komendy "open".
+# W trybie wyboru (-selection-path) wbudowana komenda "open" działa tak:
+# - Dla folderów: wchodzi do środka (nawigacja).
+# - Dla plików: zatwierdza wybór, zapisuje ścieżkę i ZAMYKA program lf.
+map <enter> open
