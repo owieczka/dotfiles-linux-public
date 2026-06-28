@@ -29,6 +29,7 @@
 - ripgrep
 - entr
 - git log style
+- lf
 
 # ToDo
 
@@ -467,6 +468,13 @@ Git uses diff3 as a merge tool. You can configure it in `~/.gitconfig`:
 
 This shows the common ancestor version in conflict markers, making it easier to resolve merge conflicts.
 
+# LF
+
+This is lightweight file explorer
+
+`micro $(lf-pick)`
+
+prefix-o - pick file in tmux 
 
 # GitHub passwordless access
 
