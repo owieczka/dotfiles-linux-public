@@ -166,6 +166,11 @@ tmux ls                 # List sessions
 - `prefix + arrow` - Navigate between panes
 - `prefix + d` - Detach from session
 
+- `prefix + o` - display fast file selection
+
+- `ctrl + n` - Disable tmux and go nested
+- `ctrl + p` - Enable tmux and go up
+
 ## Tmux Plugin maganer
 
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
